@@ -5,8 +5,7 @@
   function getLang() {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved && supported.includes(saved)) return saved;
-    const nav = (navigator.language || "cs").slice(0, 2).toLowerCase();
-    return supported.includes(nav) ? nav : "cs";
+    return "cs";
   }
   function t(key, lang) {
     return (window.I18N[lang] && window.I18N[lang][key]) || window.I18N.cs[key] || key;
