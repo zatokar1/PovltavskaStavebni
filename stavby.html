@@ -7,7 +7,7 @@
 <meta name="description" content="Generální dodavatel staveb — novostavby, rekonstrukce, inženýrské sítě.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="images/logo/logo_stavebni-vin-small-1.png">
 </head>
@@ -15,9 +15,13 @@
 
 <div class="top-bar">
   <div class="top-bar-inner">
-    <span class="left" data-i18n="top.address">Nádražní 265, Český Krumlov</span>
-    <span>📧 <a href="mailto:info@povltavska.cz">info@povltavska.cz</a></span>
-    <span>📞 <a href="tel:+420602165585">+420 602 165 585</a></span>
+    <div class="left">
+      <span data-i18n="top.address">Nádražní 265, Český Krumlov</span>
+      <span class="sep">/</span>
+      <a href="mailto:info@povltavska.cz">info@povltavska.cz</a>
+      <span class="sep">/</span>
+      <a href="tel:+420602165585">+420 602 165 585</a>
+    </div>
     <span class="lang-switch">
       <button type="button" data-lang="cs">CZ</button>
       <button type="button" data-lang="en">EN</button>
@@ -29,7 +33,7 @@
   <div class="header-inner">
     <a class="logo" href="index.html">
       <img src="images/logo/logo_stavebni-vin-small-1.png" alt="Povltavská stavební společnost">
-      <span class="logo-text">Povltavská<small>stavební společnost</small></span>
+      <span class="logo-text">Povltavská<small>stavební společnost · est. 1998</small></span>
     </a>
     <button class="menu-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="nav" aria-label="Main">
@@ -51,31 +55,32 @@
   </div>
 </header>
 
-<section class="page-hero stavby">
+<section class="page-hero">
   <div class="container">
-    <div class="breadcrumbs" data-i18n="stavby.hero.eyebrow">GENERÁLNÍ DODAVATEL STAVEB</div>
-    <h1 data-i18n="stavby.hero.title">Kompletní stavební dodávky</h1>
-    <p data-i18n="stavby.hero.sub">Od projektu ke kolaudaci — pozemní stavby, inženýrské sítě a zpevněné plochy.</p>
+    <div class="breadcrumbs" data-i18n="stavby.hero.eyebrow">—</div>
+    <h1 data-i18n="stavby.hero.title">—</h1>
+    <p data-i18n="stavby.hero.sub">—</p>
   </div>
+  <div class="page-hero-img"><img src="images/obrazky-main/generalni-dodavatel-staveb-home.jpg" alt="" loading="lazy"></div>
 </section>
 
 <section class="section">
   <div class="container">
     <div class="feature">
       <div class="prose">
-        <p class="tagline" data-i18n="stavby.lead">Hlavním předmětem činnosti naší společnosti je provádění pozemních staveb…</p>
-        <p data-i18n="stavby.p1">Stavební realizace nabízíme jako ucelené dodávky…</p>
-        <p data-i18n="stavby.p2">Jako součást stavební činnosti provozujeme silniční nákladní dopravu…</p>
-        <p data-i18n="stavby.p3">Dále nabízíme dodávky žulových odseků…</p>
+        <p class="lead" data-i18n="stavby.lead">—</p>
+        <p data-i18n="stavby.p1">—</p>
+        <p data-i18n="stavby.p2">—</p>
+        <p data-i18n="stavby.p3">—</p>
         <h3 data-i18n="stavby.list.title">Co pro vás uděláme</h3>
         <ul>
-          <li data-i18n="stavby.l1">Zajištění projektové dokumentace a stavebního povolení</li>
-          <li data-i18n="stavby.l2">Novostavby občanské a komerční</li>
-          <li data-i18n="stavby.l3">Komplexní rekonstrukce objektů</li>
-          <li data-i18n="stavby.l4">Sportovní stavby</li>
-          <li data-i18n="stavby.l5">Inženýrské sítě</li>
-          <li data-i18n="stavby.l6">Zpevněné plochy a komunikace</li>
-          <li data-i18n="stavby.l7">Pokládka žulových odseků</li>
+          <li data-i18n="stavby.l1">—</li>
+          <li data-i18n="stavby.l2">—</li>
+          <li data-i18n="stavby.l3">—</li>
+          <li data-i18n="stavby.l4">—</li>
+          <li data-i18n="stavby.l5">—</li>
+          <li data-i18n="stavby.l6">—</li>
+          <li data-i18n="stavby.l7">—</li>
         </ul>
       </div>
       <div class="feature-img">
@@ -87,7 +92,13 @@
 
 <section class="section section-soft">
   <div class="container">
-    <div class="section-head"><span class="eyebrow">PARTNEŘI</span><h2>Spolupracujeme s předními značkami</h2></div>
+    <div class="section-head">
+      <div class="num">04</div>
+      <div class="text">
+        <span class="eyebrow">PARTNEŘI · PARTNERS</span>
+        <h2>Spolupracujeme s předními <em>značkami</em></h2>
+      </div>
+    </div>
     <div class="brands">
       <img src="images/brands/logo-hilti-1.png" alt="Hilti">
       <img src="images/brands/logo-vekra.png" alt="Vekra">
@@ -98,50 +109,49 @@
 </section>
 
 <section class="cta-strip">
-  <div class="container">
-    <h2 data-i18n="cta.title">Máte stavební záměr?</h2>
-    <p data-i18n="cta.sub">Rádi vám připravíme nezávaznou nabídku.</p>
-    <a class="btn btn-ghost" href="kontakt.html" data-i18n="cta.btn">Napište nám</a>
+  <div class="cta-inner">
+    <h2><span data-i18n="cta.title">—</span></h2>
+    <div>
+      <p data-i18n="cta.sub">—</p>
+      <a class="btn btn-light" href="kontakt.html" data-i18n="cta.btn">—</a>
+    </div>
   </div>
 </section>
 <footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <img src="images/logo/logo_stavebni-vin-small-1.png" alt="Povltavská stavební společnost">
-        <p data-i18n="footer.about">Povltavská stavební společnost s.r.o.</p>
-      </div>
-      <div>
-        <h4 data-i18n="footer.services">Služby</h4>
-        <ul>
-          <li><a href="stavby.html" data-i18n="nav.stavby">Stavby</a></li>
-          <li><a href="ocelove-konstrukce.html" data-i18n="nav.ocel">Ocelové konstrukce</a></li>
-          <li><a href="stavebniny.html" data-i18n="nav.stavebniny">Stavebniny</a></li>
-          <li><a href="galerie.html" data-i18n="nav.galerie">Galerie</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 data-i18n="footer.company">Společnost</h4>
-        <ul>
-          <li>Povltavská stavební společnost s.r.o.</li>
-          <li>IČO: 60850213</li>
-          <li>DIČ: CZ60850213</li>
-          <li><span data-i18n="footer.hours">Po–Pá: 7.00–16.00</span></li>
-        </ul>
-      </div>
-      <div>
-        <h4 data-i18n="footer.contact">Kontakt</h4>
-        <ul>
-          <li>Nádražní 265<br>381 01 Český Krumlov</li>
-          <li><a href="mailto:info@povltavska.cz">info@povltavska.cz</a></li>
-          <li><a href="tel:+420602165585">+420 602 165 585</a></li>
-        </ul>
-      </div>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="logo-text">Povltavská<small>stavební společnost · est. 1998</small></span>
+      <p data-i18n="footer.about" style="margin-top:22px">Povltavská stavební společnost s.r.o.</p>
     </div>
-    <div class="footer-bottom">
-      <span>© <span id="year"></span> Povltavská stavební společnost s.r.o. <span data-i18n="footer.rights">Všechna práva vyhrazena.</span></span>
-      <span>Český Krumlov · Česká republika</span>
+    <div>
+      <h4 data-i18n="footer.services">Služby</h4>
+      <ul>
+        <li><a href="stavby.html" data-i18n="nav.stavby">Stavby</a></li>
+        <li><a href="ocelove-konstrukce.html" data-i18n="nav.ocel">Ocelové konstrukce</a></li>
+        <li><a href="stavebniny.html" data-i18n="nav.stavebniny">Stavebniny</a></li>
+        <li><a href="galerie.html" data-i18n="nav.galerie">Galerie</a></li>
+      </ul>
     </div>
+    <div>
+      <h4 data-i18n="footer.company">Společnost</h4>
+      <ul>
+        <li>IČO: 60850213</li>
+        <li>DIČ: CZ60850213</li>
+        <li data-i18n="footer.hours">Po–Pá: 7.00–16.00</li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.contact">Kontakt</h4>
+      <ul>
+        <li>Nádražní 265<br>381 01 Český Krumlov</li>
+        <li><a href="mailto:info@povltavska.cz">info@povltavska.cz</a></li>
+        <li><a href="tel:+420602165585">+420 602 165 585</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Povltavská stavební společnost s.r.o.</span>
+    <span>Český Krumlov · Česká republika</span>
   </div>
 </footer>
 

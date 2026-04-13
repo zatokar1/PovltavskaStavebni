@@ -139,11 +139,13 @@
               `<button class="thumb" data-open="${p.folder}:${i}" aria-label="${p.title[lang].replace(/"/g, "&quot;")} — ${i + 1}"><img loading="lazy" src=".${url}" alt="${p.title[lang].replace(/"/g, "&quot;")}"></button>`
           )
           .join("");
+        const num = String(projects.indexOf(p) + 1).padStart(2, "0");
         return `
       <article class="project">
         <header class="project-head">
+          <span class="num">№ ${num}</span>
           <h3>${p.title[lang]}</h3>
-          <span>${imgs.length} ${t("gal.images", lang)}</span>
+          <span class="count">${imgs.length} ${t("gal.images", lang)}</span>
         </header>
         <div class="project-grid">${thumbs}</div>
       </article>`;
@@ -172,7 +174,7 @@
       { id: "ostatni", href: "galerie-ostatni.html" },
     ];
     container.innerHTML = cats
-      .map((c) => {
+      .map((c, i) => {
         const items = window.GALLERIES[c.id] || [];
         const count = items.length;
         let cover = "";
@@ -183,12 +185,14 @@
             break;
           }
         }
+        const num = String(i + 1).padStart(2, "0");
         return `
       <a class="cat-card" href="${c.href}">
         <img src="${cover}" alt="${t("gal." + c.id, lang)}" loading="lazy">
         <div class="label">
+          <span class="num">— № ${num}</span>
           <h3>${t("gal." + c.id, lang)}</h3>
-          <span>${count} ${t("gal.projects", lang)}</span>
+          <span class="count">${count} ${t("gal.projects", lang)}</span>
         </div>
       </a>`;
       })

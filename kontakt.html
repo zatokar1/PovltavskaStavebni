@@ -7,7 +7,7 @@
 <meta name="description" content="Kontaktujte nás — Nádražní 265, Český Krumlov.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="images/logo/logo_stavebni-vin-small-1.png">
 </head>
@@ -15,9 +15,13 @@
 
 <div class="top-bar">
   <div class="top-bar-inner">
-    <span class="left" data-i18n="top.address">Nádražní 265, Český Krumlov</span>
-    <span>📧 <a href="mailto:info@povltavska.cz">info@povltavska.cz</a></span>
-    <span>📞 <a href="tel:+420602165585">+420 602 165 585</a></span>
+    <div class="left">
+      <span data-i18n="top.address">Nádražní 265, Český Krumlov</span>
+      <span class="sep">/</span>
+      <a href="mailto:info@povltavska.cz">info@povltavska.cz</a>
+      <span class="sep">/</span>
+      <a href="tel:+420602165585">+420 602 165 585</a>
+    </div>
     <span class="lang-switch">
       <button type="button" data-lang="cs">CZ</button>
       <button type="button" data-lang="en">EN</button>
@@ -29,7 +33,7 @@
   <div class="header-inner">
     <a class="logo" href="index.html">
       <img src="images/logo/logo_stavebni-vin-small-1.png" alt="Povltavská stavební společnost">
-      <span class="logo-text">Povltavská<small>stavební společnost</small></span>
+      <span class="logo-text">Povltavská<small>stavební společnost · est. 1998</small></span>
     </a>
     <button class="menu-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="nav" aria-label="Main">
@@ -54,122 +58,115 @@
 <section class="page-hero">
   <div class="container">
     <div class="breadcrumbs" data-i18n="nav.kontakt">KONTAKT</div>
-    <h1 data-i18n="kontakt.title">Kontakt</h1>
-    <p data-i18n="kontakt.sub">Rádi vám zodpovíme dotazy. Ozvěte se.</p>
+    <h1 data-i18n="kontakt.title">—</h1>
+    <p data-i18n="kontakt.sub">—</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
     <div class="contact-grid">
-      <div>
+      <div class="contact-col-left">
         <div class="contact-card">
-          <h3 data-i18n="kontakt.company">Povltavská stavební společnost s.r.o.</h3>
-          <div class="info-line"><div class="ico">📍</div><div><strong data-i18n="kontakt.address">Nádražní 265, 381 01 Český Krumlov</strong><br><span data-i18n="kontakt.reg">Zapsaná v OR KS Č. Budějovice, C 4101</span></div></div>
-          <div class="info-line"><div class="ico">📧</div><div><a href="mailto:info@povltavska.cz">info@povltavska.cz</a></div></div>
-          <div class="info-line"><div class="ico">📞</div><div><a href="tel:+420602165585">+420 602 165 585</a></div></div>
-          <div class="info-line"><div class="ico">🏦</div><div>IČO: 60850213 • DIČ: CZ60850213<br><span data-i18n="kontakt.bank">Raiffeisenbank Č. Krumlov • 6085060850 / 5500</span></div></div>
+          <h3 class="company" data-i18n="kontakt.company">—</h3>
+          <div class="info-line"><span class="ico">◊</span><div><strong data-i18n="kontakt.address">—</strong><span data-i18n="kontakt.reg">—</span></div></div>
+          <div class="info-line"><span class="ico">✉</span><div><a href="mailto:info@povltavska.cz">info@povltavska.cz</a></div></div>
+          <div class="info-line"><span class="ico">✆</span><div><a href="tel:+420602165585">+420 602 165 585</a></div></div>
+          <div class="info-line"><span class="ico">§</span><div>IČO: 60850213 · DIČ: CZ60850213<br><span data-i18n="kontakt.bank">Raiffeisenbank · 6085060850 / 5500</span></div></div>
         </div>
 
         <div class="contact-card">
-          <h3 data-i18n="kontakt.dept.mgmt">Vedení společnosti — realizace staveb</h3>
+          <h3 data-i18n="kontakt.dept.mgmt">—</h3>
           <div class="contact-person">
             <strong>Miroslav Jedlička</strong>
-            <span class="label">📞</span><a href="tel:+420602428011">+420 602 428 011</a>
-            <span class="label">📧</span><a href="mailto:jedlicka.m@povltavska.cz">jedlicka.m@povltavska.cz</a>
+            <a href="tel:+420602428011">+420 602 428 011</a>
+            <a href="mailto:jedlicka.m@povltavska.cz">jedlicka.m@povltavska.cz</a>
           </div>
-          <div class="contact-person" style="margin-top:18px">
+          <div class="contact-person">
             <strong>Marian Kott</strong>
-            <span class="label">📞</span><a href="tel:+420602129811">+420 602 129 811</a>
-            <span class="label">📧</span><a href="mailto:kott.m@povltavska.cz">kott.m@povltavska.cz</a>
+            <a href="tel:+420602129811">+420 602 129 811</a>
+            <a href="mailto:kott.m@povltavska.cz">kott.m@povltavska.cz</a>
           </div>
         </div>
 
         <div class="contact-card">
-          <h3 data-i18n="kontakt.dept.acc">Účtárna</h3>
+          <h3 data-i18n="kontakt.dept.acc">—</h3>
           <div class="contact-person">
             <strong>Mgr. Romana Jedličková</strong>
-            <span class="label">📞</span><a href="tel:+420602465399">+420 602 465 399</a>
-            <span class="label">📧</span><a href="mailto:uctarna@povltavska.cz">uctarna@povltavska.cz</a>
+            <a href="tel:+420602465399">+420 602 465 399</a>
+            <a href="mailto:uctarna@povltavska.cz">uctarna@povltavska.cz</a>
           </div>
         </div>
 
         <div class="contact-card">
-          <h3 data-i18n="kontakt.dept.prep">Příprava staveb</h3>
+          <h3 data-i18n="kontakt.dept.prep">—</h3>
           <div class="contact-person">
             <strong>Pavlína Klímová</strong>
-            <span class="label">📞</span><a href="tel:+420602779626">+420 602 779 626</a>
-            <span class="label">📧</span><a href="mailto:klimova.p@povltavska.cz">klimova.p@povltavska.cz</a>
+            <a href="tel:+420602779626">+420 602 779 626</a>
+            <a href="mailto:klimova.p@povltavska.cz">klimova.p@povltavska.cz</a>
           </div>
         </div>
 
         <div class="contact-card">
-          <h3 data-i18n="kontakt.dept.steel">Ocelové konstrukce</h3>
+          <h3 data-i18n="kontakt.dept.steel">—</h3>
           <div class="contact-person">
             <strong>Martin Svoboda</strong>
-            <span class="label">📞</span><a href="tel:+420602353002">+420 602 353 002</a>
-            <span class="label">📧</span><a href="mailto:svoboda.m@povltavska.cz">svoboda.m@povltavska.cz</a>
+            <a href="tel:+420602353002">+420 602 353 002</a>
+            <a href="mailto:svoboda.m@povltavska.cz">svoboda.m@povltavska.cz</a>
           </div>
         </div>
 
         <div class="contact-card">
-          <h3 data-i18n="kontakt.dept.store">Stavebniny</h3>
+          <h3 data-i18n="kontakt.dept.store">—</h3>
           <div class="contact-person">
             <strong>Petr Jurný</strong>
-            <span class="label">📞</span><a href="tel:+420602165585">+420 602 165 585</a>
-            <span class="label">📧</span><a href="mailto:stavebniny@povltavska.cz">stavebniny@povltavska.cz</a>
+            <a href="tel:+420602165585">+420 602 165 585</a>
+            <a href="mailto:stavebniny@povltavska.cz">stavebniny@povltavska.cz</a>
           </div>
         </div>
       </div>
 
-      <div>
-        <h3 data-i18n="kontakt.map">Kde nás najdete</h3>
-        <div class="map-embed">
-          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=14.313%2C48.808%2C14.327%2C48.816&amp;layer=mapnik&amp;marker=48.812%2C14.320" loading="lazy" title="Map"></iframe>
-        </div>
-        <p style="margin-top:10px;font-size:.9rem"><a href="https://www.openstreetmap.org/?mlat=48.812&amp;mlon=14.320#map=16/48.812/14.320" target="_blank" rel="noopener">Větší mapa / Larger map ↗</a></p>
+      <div class="map-embed">
+        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=14.313%2C48.808%2C14.327%2C48.816&amp;layer=mapnik&amp;marker=48.812%2C14.320" loading="lazy" title="Map"></iframe>
       </div>
     </div>
   </div>
 </section>
 <footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <img src="images/logo/logo_stavebni-vin-small-1.png" alt="Povltavská stavební společnost">
-        <p data-i18n="footer.about">Povltavská stavební společnost s.r.o.</p>
-      </div>
-      <div>
-        <h4 data-i18n="footer.services">Služby</h4>
-        <ul>
-          <li><a href="stavby.html" data-i18n="nav.stavby">Stavby</a></li>
-          <li><a href="ocelove-konstrukce.html" data-i18n="nav.ocel">Ocelové konstrukce</a></li>
-          <li><a href="stavebniny.html" data-i18n="nav.stavebniny">Stavebniny</a></li>
-          <li><a href="galerie.html" data-i18n="nav.galerie">Galerie</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 data-i18n="footer.company">Společnost</h4>
-        <ul>
-          <li>Povltavská stavební společnost s.r.o.</li>
-          <li>IČO: 60850213</li>
-          <li>DIČ: CZ60850213</li>
-          <li><span data-i18n="footer.hours">Po–Pá: 7.00–16.00</span></li>
-        </ul>
-      </div>
-      <div>
-        <h4 data-i18n="footer.contact">Kontakt</h4>
-        <ul>
-          <li>Nádražní 265<br>381 01 Český Krumlov</li>
-          <li><a href="mailto:info@povltavska.cz">info@povltavska.cz</a></li>
-          <li><a href="tel:+420602165585">+420 602 165 585</a></li>
-        </ul>
-      </div>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="logo-text">Povltavská<small>stavební společnost · est. 1998</small></span>
+      <p data-i18n="footer.about" style="margin-top:22px">Povltavská stavební společnost s.r.o.</p>
     </div>
-    <div class="footer-bottom">
-      <span>© <span id="year"></span> Povltavská stavební společnost s.r.o. <span data-i18n="footer.rights">Všechna práva vyhrazena.</span></span>
-      <span>Český Krumlov · Česká republika</span>
+    <div>
+      <h4 data-i18n="footer.services">Služby</h4>
+      <ul>
+        <li><a href="stavby.html" data-i18n="nav.stavby">Stavby</a></li>
+        <li><a href="ocelove-konstrukce.html" data-i18n="nav.ocel">Ocelové konstrukce</a></li>
+        <li><a href="stavebniny.html" data-i18n="nav.stavebniny">Stavebniny</a></li>
+        <li><a href="galerie.html" data-i18n="nav.galerie">Galerie</a></li>
+      </ul>
     </div>
+    <div>
+      <h4 data-i18n="footer.company">Společnost</h4>
+      <ul>
+        <li>IČO: 60850213</li>
+        <li>DIČ: CZ60850213</li>
+        <li data-i18n="footer.hours">Po–Pá: 7.00–16.00</li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.contact">Kontakt</h4>
+      <ul>
+        <li>Nádražní 265<br>381 01 Český Krumlov</li>
+        <li><a href="mailto:info@povltavska.cz">info@povltavska.cz</a></li>
+        <li><a href="tel:+420602165585">+420 602 165 585</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Povltavská stavební společnost s.r.o.</span>
+    <span>Český Krumlov · Česká republika</span>
   </div>
 </footer>
 
