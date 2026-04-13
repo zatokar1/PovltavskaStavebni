@@ -202,6 +202,7 @@
   // ---------- scroll reveal ----------
   function initReveal() {
     if (!("IntersectionObserver" in window)) return;
+    document.body.classList.add("js-ready");
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
